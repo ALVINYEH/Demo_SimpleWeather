@@ -1,0 +1,30 @@
+PODS:
+  - HexColors (2.2.1)
+  - Mantle (2.1.0):
+    - Mantle/extobjc (= 2.1.0)
+  - Mantle/extobjc (2.1.0)
+  - ReactiveObjC (3.1.0)
+  - TSMessages (0.9.12):
+    - HexColors (~> 2.2.0)
+
+DEPENDENCIES:
+  - Mantle
+  - ReactiveObjC
+  - TSMessages
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - HexColors
+    - Mantle
+    - ReactiveObjC
+    - TSMessages
+
+SPEC CHECKSUMS:
+  HexColors: abfd172e329dab59888614ccba6f216cec59289d
+  Mantle: 2fa750afa478cd625a94230fbf1c13462f29395b
+  ReactiveObjC: 2a38ea15335de4119d8b17caf1db1484f61db902
+  TSMessages: c8cc7b80f2a833af533872cd02010cac061532cc
+
+PODFILE CHECKSUM: f4b812d5ee1241d9e0e05a07456bf9df1b651a76
+
+COCOAPODS: 1.5.0

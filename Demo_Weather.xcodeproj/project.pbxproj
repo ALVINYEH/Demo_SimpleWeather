@@ -40,6 +40,10 @@
 		155AE3F920BF9EAC00602113 /* bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 155AE3DF20BF9EAB00602113 /* bg@2x.png */; };
 		155AE3FA20BF9EAC00602113 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 155AE3E020BF9EAB00602113 /* bg.png */; };
 		155AE3FD20BF9ED300602113 /* WXController.m in Sources */ = {isa = PBXBuildFile; fileRef = 155AE3FC20BF9ED300602113 /* WXController.m */; };
+		157D4F7B20C11F5E00270F58 /* WXCondition.m in Sources */ = {isa = PBXBuildFile; fileRef = 157D4F7A20C11F5E00270F58 /* WXCondition.m */; };
+		157D4F7E20C1259000270F58 /* WXDailyForecast.m in Sources */ = {isa = PBXBuildFile; fileRef = 157D4F7D20C1259000270F58 /* WXDailyForecast.m */; };
+		157D4F8120C1261500270F58 /* WXManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 157D4F8020C1261500270F58 /* WXManager.m */; };
+		157D4F8720C12B9B00270F58 /* WXClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 157D4F8520C12B9B00270F58 /* WXClient.m */; };
 		4C09298BCF41D2A887DE9CD3 /* libPods-Demo_Weather.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 24F979FF464EC11AC43B80E1 /* libPods-Demo_Weather.a */; };
 /* End PBXBuildFile section */
 
@@ -82,6 +86,14 @@
 		155AE3E020BF9EAB00602113 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
 		155AE3FB20BF9ED300602113 /* WXController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXController.h; sourceTree = "<group>"; };
 		155AE3FC20BF9ED300602113 /* WXController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXController.m; sourceTree = "<group>"; };
+		157D4F7920C11F5E00270F58 /* WXCondition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXCondition.h; sourceTree = "<group>"; };
+		157D4F7A20C11F5E00270F58 /* WXCondition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXCondition.m; sourceTree = "<group>"; };
+		157D4F7C20C1259000270F58 /* WXDailyForecast.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXDailyForecast.h; sourceTree = "<group>"; };
+		157D4F7D20C1259000270F58 /* WXDailyForecast.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXDailyForecast.m; sourceTree = "<group>"; };
+		157D4F7F20C1261500270F58 /* WXManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXManager.h; sourceTree = "<group>"; };
+		157D4F8020C1261500270F58 /* WXManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXManager.m; sourceTree = "<group>"; };
+		157D4F8320C1262C00270F58 /* WXClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = WXClient.h; path = "/Users/game-netease-chuyou/Documents/Demo/Demo_Weather/Demo_Weather/WXClient.h"; sourceTree = "<absolute>"; };
+		157D4F8520C12B9B00270F58 /* WXClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = WXClient.m; path = "/Users/game-netease-chuyou/Documents/Demo/Demo_Weather/Demo_Weather/WXClient.m"; sourceTree = "<absolute>"; };
 		24F979FF464EC11AC43B80E1 /* libPods-Demo_Weather.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Demo_Weather.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DAC2ED31D5EB86F0B198439 /* Pods-Demo_Weather.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo_Weather.release.xcconfig"; path = "Pods/Target Support Files/Pods-Demo_Weather/Pods-Demo_Weather.release.xcconfig"; sourceTree = "<group>"; };
 		D07B1BD0B9CDD8555299719E /* Pods-Demo_Weather.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo_Weather.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Demo_Weather/Pods-Demo_Weather.debug.xcconfig"; sourceTree = "<group>"; };
@@ -127,6 +139,14 @@
 				155AE3B320BF923A00602113 /* ViewController.m */,
 				155AE3FB20BF9ED300602113 /* WXController.h */,
 				155AE3FC20BF9ED300602113 /* WXController.m */,
+				157D4F7920C11F5E00270F58 /* WXCondition.h */,
+				157D4F7A20C11F5E00270F58 /* WXCondition.m */,
+				157D4F7C20C1259000270F58 /* WXDailyForecast.h */,
+				157D4F7D20C1259000270F58 /* WXDailyForecast.m */,
+				157D4F7F20C1261500270F58 /* WXManager.h */,
+				157D4F8020C1261500270F58 /* WXManager.m */,
+				157D4F8320C1262C00270F58 /* WXClient.h */,
+				157D4F8520C12B9B00270F58 /* WXClient.m */,
 				155AE3B520BF923A00602113 /* Main.storyboard */,
 				155AE3B820BF923B00602113 /* Assets.xcassets */,
 				155AE3BA20BF923B00602113 /* LaunchScreen.storyboard */,
@@ -364,6 +384,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				155AE3FD20BF9ED300602113 /* WXController.m in Sources */,
+				157D4F7E20C1259000270F58 /* WXDailyForecast.m in Sources */,
+				157D4F8720C12B9B00270F58 /* WXClient.m in Sources */,
+				157D4F7B20C11F5E00270F58 /* WXCondition.m in Sources */,
+				157D4F8120C1261500270F58 /* WXManager.m in Sources */,
 				155AE3B420BF923A00602113 /* ViewController.m in Sources */,
 				155AE3BF20BF923B00602113 /* main.m in Sources */,
 				155AE3B120BF923A00602113 /* AppDelegate.m in Sources */,
@@ -510,6 +534,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U9YJ289VCA;
 				INFOPLIST_FILE = Demo_Weather/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -528,6 +553,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U9YJ289VCA;
 				INFOPLIST_FILE = Demo_Weather/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
